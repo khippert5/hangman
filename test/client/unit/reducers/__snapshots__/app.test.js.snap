@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ui reducer Match snapshot to ensure changes are verified 1`] = `
+Object {
+  "init": Object {
+    "date": null,
+    "time": null,
+  },
+}
+`;

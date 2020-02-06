@@ -1,0 +1,77 @@
+#!/usr/bin/env bash
+
+VERSION=$(/usr/bin/env bash --version | grep "version 4" )
+if [[ -z $VERSION ]]; then
+  echo "Please upgrade to bash 4"
+  exit 1
+fi
+
+if [ "$branch" = "master" ]; then
+  echo "Not allowed to push directly to the master branch"
+  exit 1
+fi
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+if [ "$branch" = "develop" ]; then
+  echo "Not allowed to push directly to the develop branch"
+  exit 1
+fi
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+if [ "$branch" = "qa" ]; then
+  echo "Not allowed to push directly to the qa branch"
+  exit 1
+fi
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+if [ "$branch" = "release" ]; then
+  echo "Not allowed to push directly to the release branch"
+  exit 1
+fi
+
+
+npm run test-suite &
+testsuite=$!
+
+npm run flow-check &
+flow=$!
+
+npm run lint &
+lint=$!
+
+trap ctrl_c INT
+
+function ctrl_c() {
+  echo 'killing tests...'
+  kill $testsuite
+  echo 'killing flow checking...'
+  kill $flow
+  echo 'killing linting...'
+  kill $lint
+  exit 0
+}
+
+declare -A pids
+pids=(
+  ["$testsuite"]="Test Suite"
+  ["$flow"]="Flow checking"
+  ["$lint"]="Linting"
+)
+
+exitCode=0
+
+for p in "${!pids[@]}"; do
+  # jest will sometimes supress these messages... not a huge deal
+  if wait $p; then
+    echo -e "\033[42;37m${pids[$p]} - SUCCESS\033[0m"
+  else
+    echo -e "\033[41;37m${pids[$p]} - FAIL\033[0m"
+    exitCode=$p
+  fi
+done
+
+exit $exitCode
+

@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test application render It renders successfully 1`] = `
+<div
+  className="sc-bdVaJa cwHqWd"
+>
+  <div
+    className="sc-bwzfXH krYIhT"
+  >
+    <h2
+      className="sc-dnqmqq jZWzqX"
+    >
+      React Hangman
+    </h2>
+    <div
+      className="Hangman"
+    >
+      <canvas />
+    </div>
+    <div
+      className="sc-iwsKbI hOKQXu"
+    >
+      <p>
+        <b>
+          Hint:
+        </b>
+         
+        Test solution
+      </p>
+      <h3>
+        Your word is:
+      </h3>
+      <div
+        className="sc-VigVT eiRcZc"
+      >
+        <div
+          className="sc-gZMcBi iEOUPw"
+        >
+          <div
+            className="sc-gqjmRU iyjRIq"
+          >
+             
+          </div>
+          <div
+            className="sc-gqjmRU iyjRIq"
+          >
+             
+          </div>
+          <div
+            className="sc-gqjmRU iyjRIq"
+          >
+             
+          </div>
+          <div
+            className="sc-gqjmRU iyjRIq"
+          >
+             
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      className="sc-ifAKCX kdopqP"
+      color="green"
+    >
+      You have 
+      <span>
+        6
+      </span>
+       incorrect tries to get it right.
+    </p>
+    <p
+      className="sc-gzVnrw hsqWdA"
+    >
+      Use your keyboard or click on a letter to get started
+    </p>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="a"
+      onClick={[Function]}
+    >
+      a
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="b"
+      onClick={[Function]}
+    >
+      b
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="c"
+      onClick={[Function]}
+    >
+      c
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="d"
+      onClick={[Function]}
+    >
+      d
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="e"
+      onClick={[Function]}
+    >
+      e
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="f"
+      onClick={[Function]}
+    >
+      f
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="g"
+      onClick={[Function]}
+    >
+      g
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="h"
+      onClick={[Function]}
+    >
+      h
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="i"
+      onClick={[Function]}
+    >
+      i
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="j"
+      onClick={[Function]}
+    >
+      j
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="k"
+      onClick={[Function]}
+    >
+      k
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="l"
+      onClick={[Function]}
+    >
+      l
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="m"
+      onClick={[Function]}
+    >
+      m
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="n"
+      onClick={[Function]}
+    >
+      n
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="o"
+      onClick={[Function]}
+    >
+      o
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="p"
+      onClick={[Function]}
+    >
+      p
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="q"
+      onClick={[Function]}
+    >
+      q
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="r"
+      onClick={[Function]}
+    >
+      r
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="s"
+      onClick={[Function]}
+    >
+      s
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="t"
+      onClick={[Function]}
+    >
+      t
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="u"
+      onClick={[Function]}
+    >
+      u
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="v"
+      onClick={[Function]}
+    >
+      v
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="w"
+      onClick={[Function]}
+    >
+      w
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="x"
+      onClick={[Function]}
+    >
+      x
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="y"
+      onClick={[Function]}
+    >
+      y
+    </button>
+    <button
+      className="sc-EHOje bXraum"
+      data-value="z"
+      onClick={[Function]}
+    >
+      z
+    </button>
+    <div
+      className="sc-bxivhb geuGCY"
+    >
+      <div
+        className="sc-fjdhpX cQrmnA"
+      >
+        <button
+          className="sc-jTzLTM rHsMs new"
+          onClick={[Function]}
+        >
+          New puzzle
+        </button>
+      </div>
+      <p
+        className="sc-htpNat bOVmHZ"
+      >
+        <span>
+          Developer:
+        </span>
+         Kevin Hippert
+      </p>
+    </div>
+  </div>
+</div>
+`;

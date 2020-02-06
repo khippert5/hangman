@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index verify reducer unit tests Match snapshot. This will fail if new state default attributes change 1`] = `
+Object {
+  "app": Object {
+    "init": Object {
+      "date": null,
+      "time": null,
+    },
+  },
+  "ui": Object {
+    "correct": null,
+    "error": null,
+    "incorrect": 4,
+    "selected": Array [],
+    "solution": Object {
+      "hint": "Test answer",
+      "word": "test",
+    },
+    "success": false,
+    "validLetters": Array [],
+    "values": Array [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "q",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "w",
+      "x",
+      "y",
+      "z",
+    ],
+  },
+}
+`;

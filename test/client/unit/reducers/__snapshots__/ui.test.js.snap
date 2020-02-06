@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ui reducer Match snapshot to ensure changes are verified 1`] = `
+Object {
+  "correct": null,
+  "error": null,
+  "incorrect": 4,
+  "selected": Array [],
+  "solution": Object {
+    "hint": "Test answer",
+    "word": "test",
+  },
+  "success": false,
+  "validLetters": Array [],
+  "values": Array [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+  ],
+}
+`;

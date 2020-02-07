@@ -2,13 +2,13 @@
 
 exports[`Test application render It renders successfully 1`] = `
 <div
-  className="sc-bdVaJa cwHqWd"
+  className="sc-AxjAm lmcqpK"
 >
   <div
-    className="sc-bwzfXH krYIhT"
+    className="sc-AxirZ gdmeFB"
   >
     <h2
-      className="sc-dnqmqq jZWzqX"
+      className="sc-fzozJi fFOdLC"
     >
       React Hangman
     </h2>
@@ -18,7 +18,7 @@ exports[`Test application render It renders successfully 1`] = `
       <canvas />
     </div>
     <div
-      className="sc-iwsKbI hOKQXu"
+      className="sc-fzoLsD ePouvF"
     >
       <p>
         <b>
@@ -31,28 +31,28 @@ exports[`Test application render It renders successfully 1`] = `
         Your word is:
       </h3>
       <div
-        className="sc-VigVT eiRcZc"
+        className="sc-fznyAO czrHZK"
       >
         <div
-          className="sc-gZMcBi iEOUPw"
+          className="sc-fzpans dhSJQw"
         >
           <div
-            className="sc-gqjmRU iyjRIq"
+            className="sc-fzplWN fgYnJs"
           >
              
           </div>
           <div
-            className="sc-gqjmRU iyjRIq"
+            className="sc-fzplWN fgYnJs"
           >
              
           </div>
           <div
-            className="sc-gqjmRU iyjRIq"
+            className="sc-fzplWN fgYnJs"
           >
              
           </div>
           <div
-            className="sc-gqjmRU iyjRIq"
+            className="sc-fzplWN fgYnJs"
           >
              
           </div>
@@ -60,7 +60,7 @@ exports[`Test application render It renders successfully 1`] = `
       </div>
     </div>
     <p
-      className="sc-ifAKCX kdopqP"
+      className="sc-AxhUy dXAPUO"
       color="green"
     >
       You have 
@@ -70,207 +70,207 @@ exports[`Test application render It renders successfully 1`] = `
        incorrect tries to get it right.
     </p>
     <p
-      className="sc-gzVnrw hsqWdA"
+      className="sc-Axmtr dptzrY"
     >
       Use your keyboard or click on a letter to get started
     </p>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="a"
       onClick={[Function]}
     >
       a
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="b"
       onClick={[Function]}
     >
       b
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="c"
       onClick={[Function]}
     >
       c
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="d"
       onClick={[Function]}
     >
       d
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="e"
       onClick={[Function]}
     >
       e
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="f"
       onClick={[Function]}
     >
       f
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="g"
       onClick={[Function]}
     >
       g
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="h"
       onClick={[Function]}
     >
       h
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="i"
       onClick={[Function]}
     >
       i
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="j"
       onClick={[Function]}
     >
       j
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="k"
       onClick={[Function]}
     >
       k
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="l"
       onClick={[Function]}
     >
       l
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="m"
       onClick={[Function]}
     >
       m
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="n"
       onClick={[Function]}
     >
       n
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="o"
       onClick={[Function]}
     >
       o
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="p"
       onClick={[Function]}
     >
       p
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="q"
       onClick={[Function]}
     >
       q
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="r"
       onClick={[Function]}
     >
       r
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="s"
       onClick={[Function]}
     >
       s
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="t"
       onClick={[Function]}
     >
       t
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="u"
       onClick={[Function]}
     >
       u
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="v"
       onClick={[Function]}
     >
       v
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="w"
       onClick={[Function]}
     >
       w
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="x"
       onClick={[Function]}
     >
       x
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="y"
       onClick={[Function]}
     >
       y
     </button>
     <button
-      className="sc-EHOje bXraum"
+      className="sc-AxgMl uTiPt"
       data-value="z"
       onClick={[Function]}
     >
       z
     </button>
     <div
-      className="sc-bxivhb geuGCY"
+      className="sc-AxhCb ffJKdZ"
     >
       <div
-        className="sc-fjdhpX cQrmnA"
+        className="sc-fznZeY dKVuEX"
       >
         <button
-          className="sc-jTzLTM rHsMs new"
+          className="sc-fznKkj diVXuF new"
           onClick={[Function]}
         >
           New puzzle
         </button>
       </div>
       <p
-        className="sc-htpNat bOVmHZ"
+        className="sc-AxiKw jzDFxW"
       >
         <span>
           Developer:
